@@ -20,7 +20,7 @@ try{tg=window.Telegram&&window.Telegram.WebApp;if(tg){tg.ready();tg.expand();try
 var cv=document.getElementById('c'),ctx=cv.getContext('2d'),W,H,D;
 function resize(){D=window.devicePixelRatio||1;W=innerWidth;H=innerHeight;cv.width=W*D;cv.height=H*D;ctx.setTransform(D,0,0,D,0,0);}
 addEventListener('resize',resize);resize();
-var SHARE_URL='';
+var SHARE_URL='https://t.me/ice_cup_game_bot/Cup';
 var HERO=[{n:'Лёля',c:'#ff5fa2',e:'👩'},{n:'Пик',c:'#2979ff',e:'👨'}];
 var WISH=['Сказать 3 тёплых комплимента','Обнять на 20 секунд','Сделать массаж плеч на 1 минуту','Выбрать фильм на сегодняшний вечер','Приготовить чай или кофе для партнёра','Рассказать, за что любишь партнёра','Вспомнить ваше первое свидание','Сделать смешное селфи вдвоём','Выбрать место для следующего свидания','Станцевать 30 секунд под любимую песню','Помыть посуду сегодня вместо партнёра','Написать партнёру милую записку','Поцеловать в щёку и сказать «ты лучший(ая)»'];
 var EV=[
